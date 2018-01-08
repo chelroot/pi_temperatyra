@@ -1,0 +1,539 @@
+    1  sudo service ssh start
+    2  sudo passwd pi
+    3  sudo passwd 
+    4  sudo systemctl enable ssh
+    5  poweroff 
+    6  sudo poweroff 
+    7  apt-get update
+    8  su -l
+    9  wget -r --no-parent http://salomatin.ru/salomatin.tar
+   10  mc
+   11  wget -r --no-parent http://salomatin.ru/salomatin.tar
+   12  mc
+   13  su -l
+   14  su -l
+   15  raspistill -o image.jpg
+   16  sudo raspi-config
+   17  su -l
+   18  raspistill -o /var/www/html/foto/image.jpg
+   19  su -l
+   20  mpg123 http://ep128server.streamr.ru:8030/ep128
+   21  alsamixer 
+   22  mpg123 http://ep128server.streamr.ru:8030/ep128
+   23  alsamixer 
+   24  mpg123 http://ep128server.streamr.ru:8030/ep128
+   25  git clone https://github.com/adafruit/Adafruit_Python_DHT.git
+   26  su -l
+   27  git clone https://github.com/adafruit/Adafruit_Python_DHT.git
+   28  cd Adafruit_Python_DHT
+   29  sudo python setup.py install
+   30  ./AdafruitDHT.py 11 3
+   31  mc
+   32  cd examples/
+   33  ./AdafruitDHT.py 11 3
+   34  ./AdafruitDHT.py 11 4
+   35  ./AdafruitDHT.py 11 3
+   36  ./AdafruitDHT.py 11 2
+   37  ./AdafruitDHT.py 11 3
+   38  sudo raspi-config
+   39  sudo modprobe w1-gpio && sudo modprobe w1_therm
+   40  ls -l /sys/bus/w1/devices/
+   41  cat /sys/bus/w1/devices/28-03160348e3ff/w1_slave 
+   42  mcedit temperature.py
+   43  ls
+   44  mc
+   45  ./temperature.py 
+   46  mc
+   47  mcedit temperature.py 
+   48  ./temperature.py 
+   49  mcedit temperature.py 
+   50  ./temperature.py 
+   51  mc
+   52  ./temperature.py 
+   53  cat /sys/bus/w1/devices/
+   54  ls
+   55  cd /sys/bus/w1/devices/
+   56  ls
+   57  /home/pi/temperature.py 
+   58  cd /sys/bus/w1/devices/
+   59  ls
+   60  cat /sys/bus/w1/devices/28-0115c05990ff/w1_slave 
+   61  cat /sys/bus/w1/devices/28-0316034/w1_slave 
+   62  cat /sys/bus/w1/devices/28-031603467bff/w1_slave 
+   63  cat /sys/bus/w1/devices/28-03160348e3ff/w1_slave 
+   64  /home/pi/temperature.py 
+   65  ls /sys/bus/w1/devices/
+   66  sudo modprobe w1-gpio && sudo modprobe w1_therm
+   67  ls /sys/bus/w1/devices/
+   68  cat /sys/bus/w1/devices/28-0316034b20ff/w1_slave 
+   69  sudo modprobe w1-gpio && sudo modprobe w1_therm
+   70  ls /sys/bus/w1/devices/
+   71  /home/pi/temperature.py 
+   72  ls /sys/bus/w1/devices/
+   73  cat /sys/bus/w1/devices/28-0316034b20ff/w1_slave 
+   74  cat /sys/bus/w1/devices/28-03160348e3ff/w1_slave 
+   75  cat /sys/bus/w1/devices/28-031603467bff/w1_slave 
+   76  cat /sys/bus/w1/devices/28-0115c05990ff/w1_slave 
+   77  cat /sys/bus/w1/devices/28-03160348e3ff/w1_slave 
+   78  ls /sys/bus/w1/devices/
+   79  cat /sys/bus/w1/devices/28-0316034b20ff/w1_slave 
+   80  sudo modprobe w1-gpio && sudo modprobe w1_therm
+   81  cat /sys/bus/w1/devices/28-03160348e3ff/w1_slave 
+   82  cat /sys/bus/w1/devices/28-0316034b20ff/w1_slave 
+   83  cat /sys/bus/w1/devices/28-0115c05990ff/w1_slave 
+   84  cat /sys/bus/w1/devices/28-031603467bff/w1_slave 
+   85  cat /sys/bus/w1/devices/28-03160348e3ff/w1_slave 
+   86  cat /sys/bus/w1/devices/28-0316034b20ff/w1_slave 
+   87  cat /sys/bus/w1/devices/28-0115c05990ff/w1_slave 
+   88  cat /sys/bus/w1/devices/28-031603467bff/w1_slave 
+   89  ls /sys/bus/w1/devices/
+   90  su -l
+   91  git clone https://github.com/adafruit/Adafruit_Python_DHT.git
+   92  mpg123 http://ep128server.streamr.ru:8030/ep128
+   93  sudo modprobe w1-gpio && sudo modprobe w1_therm
+   94  ls /sys/bus/w1/devices/
+   95  cat /sys/bus/w1/devices/28-03160348e3ff/w1_slave 
+   96  sudo modprobe w1-gpio && sudo modprobe w1_therm
+   97  ls /sys/bus/w1/devices/
+   98  cat /sys/bus/w1/devices/28-03160348e3ff/w1_slave 
+   99  sudo modprobe w1-gpio && sudo modprobe w1_therm
+  100  cat /sys/bus/w1/devices/28-03160348e3ff/w1_slave 
+  101  sudo modprobe w1-gpio && sudo modprobe w1_therm
+  102  ls /sys/bus/w1/devices/
+  103  cat /sys/bus/w1/devices/28-0316034b/w1_slave 
+  104  cat /sys/bus/w1/devices/28-0316034b20ff/w1_slave 
+  105  sudo modprobe w1-gpio && sudo modprobe w1_therm
+  106  ls /sys/bus/w1/devices/
+  107  cat /sys/bus/w1/devices/28-0115a81b7eff/w1_slave 
+  108  sudo modprobe w1-gpio && sudo modprobe w1_therm
+  109  ls /sys/bus/w1/devices/
+  110  cat /sys/bus/w1/devices/28-0115b146f6ff/w1_slave 
+  111  cat /sys/bus/w1/devices/28-03160346f8ff/w1_slave 
+  112  cat /sys/bus/w1/devices/28-0115b146f6ff/w1_slave 
+  113  sudo modprobe w1-gpio && sudo modprobe w1_therm
+  114  ls /sys/bus/w1/devices/
+  115  cat /sys/bus/w1/devices/28-0115c05990ff/w1_slave 
+  116  sudo modprobe w1-gpio && sudo modprobe w1_therm
+  117  ls /sys/bus/w1/devices/
+  118  cat /sys/bus/w1/devices/28-0316034b20ff/w1_slave 
+  119  sudo modprobe w1-gpio && sudo modprobe w1_therm
+  120  ls /sys/bus/w1/devices/
+  121  cat /sys/bus/w1/devices/28-031603467bff/w1_slave 
+  122  sudo modprobe w1-gpio && sudo modprobe w1_therm
+  123  ls /sys/bus/w1/devices/
+  124  cat /sys/bus/w1/devices/28-03160346f8ff/w1_slave 
+  125  cat /sys/bus/w1/devices/28-0115b146f6ff/w1_slave 
+  126  sudo modprobe w1-gpio && sudo modprobe w1_therm
+  127  ls /sys/bus/w1/devices/
+  128  sudo modprobe w1-gpio && sudo modprobe w1_therm
+  129  ls /sys/bus/w1/devices/
+  130  history 
+  131  ls
+  132  ls Adafruit_Python_DHT/
+  133  ls Adafruit_Python_DHT/examples/
+  134  /home/pi/Adafruit_Python_DHT/examples/AdafruitDHT.py 11 2
+  135  /home/pi/Adafruit_Python_DHT/examples/AdafruitDHT.py 11 3
+  136  exit
+  137  /home/pi/Adafruit_Python_DHT/examples/AdafruitDHT.py 11 3
+  138  ls Adafruit_Python_DHT/examples/
+  139  ls /sys/bus/w1/devices/
+  140  history 
+  141  raspistill -o /var/www/html/foto/image.jpg
+  142  cat /sys/bus/w1/devices/28-0115b146f6ff/w1_slave 
+  143  cat /sys/bus/w1/devices/28-03160346f8ff/w1_slave 
+  144  exit
+  145  mc
+  146  history 
+  147  cat /sys/bus/w1/devices/28-0115b146f6ff/w1_slave
+  148  cat /sys/bus/w1/devices/28-03160346f8ff/w1_slave
+  149  /home/pi/temperature.py 
+  150  mcedit temperature.py 
+  151  ls /sys/bus/w1/devices/
+  152  mcedit temperature.py 
+  153  /home/pi/temperature.py 
+  154  mcedit temperature.py 
+  155  cd /sys/bus/w1/devices/28-0115a81b7eff/
+  156  mcedit temperature.py 
+  157  cd ~
+  158  mcedit temperature.py 
+  159  /home/pi/temperature.py 
+  160  mcedit temperature.py 
+  161  /home/pi/temperature.py 
+  162  mcedit temperature.py 
+  163  /home/pi/temperature.py 
+  164  mc
+  165  ls /sys/bus/w1/devices/
+  166  mcedit temperature.py 
+  167  /home/pi/temperature.py 
+  168  mc
+  169  /home/pi/temperature.py 
+  170  mcedit temperature.py 
+  171  /home/pi/temperature.py 
+  172  mcedit temperature.py 
+  173  /home/pi/temperature.py 
+  174  mc
+  175  /home/pi/temperature.py 
+  176  mcedit temperature.py 
+  177  /home/pi/temperature.py 
+  178  mc
+  179  /home/pi/temperature.py 
+  180  /home/pi/Adafruit_Python_DHT/examples/AdafruitDHT.py 11 3
+  181  mcedit temperature.py 
+  182  /home/pi/temperature.py 
+  183  mcedit temperature.py 
+  184  /home/pi/temperature.py 
+  185  mcedit temperature.py 
+  186  /home/pi/temperature.py 
+  187  mcedit temperature.py 
+  188  /home/pi/temperature.py 
+  189  mcedit temperature.py 
+  190  /home/pi/temperature.py 
+  191  mcedit temperature.py 
+  192  /home/pi/temperature.py 
+  193  mcedit temperature.py 
+  194  /home/pi/temperature.py 
+  195  mc
+  196  /home/pi/temperature.py 
+  197  mcedit temperature.py 
+  198  /home/pi/temperature.py 
+  199  mcedit temperature.py 
+  200  /home/pi/temperature.py 
+  201  mcedit temperature.py 
+  202  /home/pi/temperature.py 
+  203  /home/pi/Adafruit_Python_DHT/examples/AdafruitDHT.py 11 3
+  204  exit
+  205  /home/pi/temperature.py 
+  206  exit
+  207  mpg123 http://ep128server.streamr.ru:8030/ep128
+  208  /home/pi/temperature.py 
+  209  raspistill -o /var/www/html/foto/image.jpg
+  210  scp /var/www/html/foto/image.jpg vova@10.2.0.1:/home/var/www/html/ob74
+  211  scp /var/www/html/foto/image.jpg vova@10.2.0.1:/var/www/html/ob74
+  212  /home/pi/temperature.py 
+  213  mpg123 http://ep128server.streamr.ru:8030/ep128
+  214  mcedit /home/pi/temperature.py 
+  215  /home/pi/temperature.py 
+  216  mpg123 http://ep128server.streamr.ru:8030/ep128
+  217  nohup nice mpg123 http://ep128server.streamr.ru:8030/ep128 &
+  218  exit
+  219  mpg123 http://ep128server.streamr.ru:8030/ep128
+  220  /home/pi/temperature.py 
+  221  exit
+  222  /home/pi/temperature.py 
+  223  exit
+  224  mpg123 http://ep128server.streamr.ru:8030/ep128
+  225  amixer 
+  226  alsamixer 
+  227  mpg123 http://ep128server.streamr.ru:8030/ep128
+  228  /home/pi/temperature.py 
+  229  exit
+  230  /home/pi/temperature.py 
+  231  alsamixer 
+  232  mpg123 http://ep128server.streamr.ru:8030/ep128
+  233  mpg123 
+  234  wget salomatin.ru/klen.mp3
+  235  mpg123 klen.mp3 
+  236  alsamixer 
+  237  /home/pi/temperature.py 
+  238  apt-cache search arduino-mk
+  239  /home/pi/temperature.py 
+  240  exit
+  241  /home/pi/temperature.py 
+  242  /home/pi/temperature.py     
+  243  /home/pi/temperature.py 
+  244  exit
+  245  ls
+  246  ./hc595.py 
+  247  cp hc595.py hc595b.py 
+  248  mc
+  249  ./hc595b.py 
+  250  mc
+  251  ./hc595.py 
+  252  mc
+  253  ./hc595bpy 
+  254  ./hc595b.py 
+  255  cp hc595.py hc595c.py 
+  256  mc
+  257  ./hc595c.py 
+  258  mc
+  259  ./hc595c.py 
+  260  ./hc595.py 
+  261  mc
+  262  ./hc595.py 
+  263  mc
+  264  ./hc595.py 
+  265  mc
+  266  ./hc595.py 
+  267  mc
+  268  ./hc595.py 
+  269  mc
+  270  ./hc595.py 
+  271  mc
+  272  ./hc595.py 
+  273  mc
+  274  ./hc595.py 
+  275  mc
+  276  ./hc595.py 
+  277  mc
+  278  ./hc595.py 
+  279  mc
+  280  ./hc595.py 
+  281  mc
+  282  ./hc595.py 
+  283  mc
+  284  ./hc595.py 
+  285  mc
+  286  ./hc595.py 
+  287  mc
+  288  ./hc595.py 
+  289  mcedit hc595.py 
+  290  ./hc595.py 
+  291  mc
+  292  ./hc595.py 
+  293  mcedit hc595.py 
+  294  ./hc595.py 
+  295  mcedit hc595.py 
+  296  ./hc595.py 
+  297  mcedit hc595.py 
+  298  ./hc595.py 
+  299  mcedit hc595.py 
+  300  ./hc595.py 
+  301  mcedit hc595.py 
+  302  ./hc595.py 
+  303  su -l
+  304  mcedit hc595.py 
+  305  ./hc595.py 
+  306  mcedit hc595.py 
+  307  ./hc595.py 
+  308  ./hc595b.py 
+  309  ./hc595c.py 
+  310  mcedit hc595.py 
+  311  ./hc595.py 
+  312  mcedit hc595.py 
+  313  ./hc595.py 
+  314  su -l
+  315  mcedit hc595.py 
+  316  ./hc595.py 
+  317  mcedit hc595.py 
+  318  ./hc595.py 
+  319  mcedit hc595.py 
+  320  ./hc595.py 
+  321  mcedit hc595.py 
+  322  ./hc595.py 
+  323  mcedit hc595.py 
+  324  ./hc595.py 
+  325  mcedit hc595.py 
+  326  ./hc595.py 
+  327  mcedit hc595.py 
+  328  ./hc595.py 
+  329  mcedit hc595.py 
+  330  ./hc595.py 
+  331  mcedit hc595.py 
+  332  ./hc595.py 
+  333  mcedit hc595.py 
+  334  ./hc595.py 
+  335  mcedit hc595.py 
+  336  ./hc595.py 
+  337  mcedit hc595.py 
+  338  ./hc595.py 
+  339  mcedit hc595.py 
+  340  ./hc595.py 
+  341  mcedit hc595.py 
+  342  ./hc595.py 
+  343  mcedit hc595.py 
+  344  ./hc595.py 
+  345  mcedit hc595.py 
+  346  ./hc595.py 
+  347  mcedit hc595.py 
+  348  ./hc595.py 
+  349  mcedit hc595.py 
+  350  ./hc595.py 
+  351  mcedit hc595.py 
+  352  ./hc595.py 
+  353  su -l
+  354  ./hc595.py 
+  355  mcedit hc595.py 
+  356  ./hc595.py 
+  357  mcedit hc595.py 
+  358  ./hc595.py 
+  359  su -l
+  360  ./hc595.py 
+  361  mcedit hc595.py 
+  362  ./hc595.py 
+  363  mcedit hc595.py 
+  364  ./hc595.py 
+  365  mc
+  366  cd salomatin
+  367  ls
+  368  mc
+  369  ./blink.py 
+  370  mc
+  371  ./blink.py 
+  372  mc
+  373  ./blink.py 
+  374  mc
+  375  ./blink.py 
+  376  su -l
+  377  ./blink.py 
+  378  ls
+  379  mc
+  380  su -l
+  381  ./blink.py 
+  382  ./hc595.py 
+  383  mc
+  384  mce hc5
+  385  mcedit hc595.py 
+  386  ./hc595.py 
+  387  mcedit hc595.py 
+  388  ./hc595.py 
+  389  mcedit hc595a.py 
+  390  ./hc595a.py 
+  391  mcedit hc595a.py 
+  392  ./hc595a.py 
+  393  mcedit hc595b.py 
+  394  mc
+  395  ./hc595c.py 
+  396  mc
+  397  ./hc595.py 
+  398  mc
+  399  ./hc595.py 
+  400  mc
+  401  ./hc595.py 
+  402  mc
+  403  ./hc595.py 
+  404  mc
+  405  mc
+  406  ./hc2.py 
+  407  ./hc595.py 
+  408  ./hc2.py 
+  409  ./hc595.py 
+  410  ./hc2.py 
+  411  ./hc3.py 
+  412  ./hc4.py 
+  413  ./hc3.py 
+  414  ./hc595.py 
+  415  mc
+  416  ./hc595.py 
+  417  mc
+  418  ./hc595.py 
+  419  mcedit hc595.py 
+  420  ./hc595.py 
+  421  mcedit hc595.py 
+  422  ./hc595.py 
+  423  mcedit hc595.py 
+  424  ./hc595.py 
+  425  mcedit hc595.py 
+  426  ./hc595.py 
+  427  mcedit hc595.py 
+  428  ./hc595.py 
+  429  ./hc595c.py 
+  430  mc
+  431  echo -n >hn1.py 
+  432  mcedit hn1.py 
+  433  exit
+  434  cd ob74blink/
+  435  ./a1.py 
+  436  ls
+  437  mcedit vvklk.py 
+  438  ./a1.py 
+  439  ./vvklk.
+  440  mcedit vvklk.py 
+  441  mcedit a1.py 
+  442  cp a1.py a2.py 
+  443  mcedit a1.py 
+  444  ./a1.py 
+  445  mcedit a1.py 
+  446  ./a1.py 
+  447  mcedit a1.py 
+  448  ./a1.py 
+  449  mcedit a1.py 
+  450  ls
+  451  mcedit a2.py 
+  452  cp a2.py a3.py 
+  453  mcedit a3.py 
+  454  mcedit a2.py 
+  455  mcedit a3.py 
+  456  mcedit a2.py 
+  457  mcedit vvklk.py 
+  458  mcedit a2.py 
+  459  mcedit vvklk.py 
+  460  mcedit a2.py 
+  461  mcedit a3.py 
+  462  mcedit a2.py 
+  463  mc
+  464  cd ob74blink/
+  465  ls
+  466  mcedit vvklk.py 
+  467  ./vvklk.py 
+  468  mcedit vvklk.py 
+  469  ./vvklk.py 
+  470  mcedit vvklk.py 
+  471  ./vvklk.py 
+  472  mcedit vvklk.py 
+  473  ./vvklk.py 
+  474  mc
+  475  mcedit vvklk.py 
+  476  ./vvklk.py 
+  477  mcedit vvklk.py 
+  478  ./vvklk.py 
+  479  mcedit vvklk.py 
+  480  ./vvklk.py 
+  481  mcedit vvklk.py 
+  482  ./vvklk.py 
+  483  mcedit vvklk.py 
+  484  ./vvklk.py 
+  485  mcedit vvklk.py 
+  486  ./vvklk.py 
+  487  mcedit vvklk.py 
+  488  ./vvklk.py 
+  489  mcedit vvklk.py 
+  490  ./vvklk.py 
+  491  mcedit vvklk.py 
+  492  ./vvklk.py 
+  493  mcedit vvklk.py 
+  494  ./vvklk.py 
+  495  mcedit vvklk.py 
+  496  ./vvklk.py 
+  497  ./a2.py 
+  498  ./a3.py 
+  499  ./vvklk.py 
+  500  ./a2.py 
+  501  ./a3.py 
+  502  ./vvklk.py 
+  503  ./a2.py 
+  504  ./vvklk.py 
+  505  ./a2.py 
+  506  ./vvklk.py 
+  507  ./a3.py 
+  508  ./a2.py 
+  509  ./vvklk.py 
+  510  ./a2.py 
+  511  ./vvklk.py 
+  512  ./a2.py 
+  513  ./vvklk.py 
+  514  cd ob74blink/
+  515  mcedit a2.py 
+  516  cd ob74blink/
+  517  ls
+  518  ./a2.py 
+  519  mcedit a2.py 
+  520  ./a2.py 
+  521  mcedit hn1.py 
+  522  cd ob74blink/
+  523  ls
+  524  mcedit a2.py 
+  525  ps -ax | grep pithon
+  526  ps -ax | grep python
+  527  cd ob74blink/
+  528  mcedit a2.py 
+  529  ./a2.py 
+  530  ps -ax | grep a2
+  531  exit
+  532  cd ob74blink/
+  533  ls
+  534  mc
+  535  history
+  536  /home/pi/temperature.py
+  537  mc
+  538  history 
+  539  history >>history_ssh.txt

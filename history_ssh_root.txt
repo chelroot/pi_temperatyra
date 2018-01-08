@@ -1,0 +1,50 @@
+    1  apt-get update
+    2  apt-get install mc htop
+    3  dpkg-reconfigure tzdata
+    4  date
+    5  service ntp stop;ntpd -gq;service ntp start
+    6  service ntp stop;ntpd -gq;service ntp start
+    7  apt-cache search ntpd
+    8  apt-get install ntpdate
+    9  service ntp stop;ntpd -gq;service ntp start
+   10  apt-get install ntpstat
+   11  service ntp stop;ntpd -gq;service ntp start
+   12  apt-get install cyrus-nntpd
+   13  service ntp stop;ntpd -gq;service ntp start
+   14  apt-cache search ntp
+   15  apt-get install ntp
+   16  service ntp stop;ntpd -gq;service ntp start
+   17  date
+   18  /opt/vc/bin/vcgencmd measure_temp
+   19  exit
+   20  poweroff 
+   21  exit
+   22  reboot 
+   23  apt-get update
+   24  apt-get install nginx
+   25  systemctl enable nginx
+   26  mcedit /etc/nginx/sites-available/default
+   27  service nginx restart
+   28  mkdir /var/www/html/foto;chmod 777 /var/www/html/foto
+   29  exit
+   30  apt-get update
+   31  apt-get install build-essential python-dev python-openssl
+   32  apt-get install mpg123 mpg321
+   33  exit
+   34  apt-get inswtall git
+   35  apt-get install git
+   36  exit
+   37  reboot 
+   38  poweroff 
+   39  poweroff 
+   40  poweroff 
+   41  poweroff 
+   42  poweroff 
+   43  poweroff 
+   44  poweroff 
+   45  apt-get update
+   46  apt-cache search spidev
+   47  apt-get install python-spidev
+   48  sudo raspi-config
+   49  exit
+   50  history >>/home/pi/history_ssh_root.txt
